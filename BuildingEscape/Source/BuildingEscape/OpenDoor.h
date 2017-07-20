@@ -33,8 +33,7 @@ private:
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume* PressurePlate; //remember pawn interits from actor\
 
-	UPROPERTY(EditAnywhere)
-		AActor* ActorThatOpens;
+	AActor* ActorThatOpens;
 
 
 };
