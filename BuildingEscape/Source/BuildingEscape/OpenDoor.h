@@ -29,7 +29,7 @@ private:
 		ATriggerVolume* PressurePlate = nullptr; //remember pawn interits from actor\
 
 	UPROPERTY(EditAnywhere)
-		float TriggerMass = 30.f;
+		float TriggerMass = 0.f;
 
 	UPROPERTY(BlueprintAssignable)
 	FDoorEvent OnOpen;
