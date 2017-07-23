@@ -21,6 +21,7 @@ public:
 
 	void OpenDoor();
 	void CloseDoor();
+	float GetTotalMassOfActorOnPlate();
 
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
